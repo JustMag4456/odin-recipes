@@ -3,24 +3,75 @@
     margin: 0;
 }
 
+body {
+    background-color: bisque;
+}
 
 .principal {
-    background-color: rgba(224, 255, 85, 0.541);
+    background-color: rgba(204, 224, 22, 0.541);
     text-align: center;
     padding: 10px;
     margin: 0px 500px;
+    border: 5px solid black;
 }
 
-a {
+.border a {
     display: block;
     text-align: center;
-    margin: 10px;
+    padding: 5px;
     font-size: 25px;
-    background-color: ;
+    background-color: rgba(128, 128, 128, 0.685);
+    color: black;
 }
 
 h3 {
     text-align: center;
     padding: 30px;
     font-size: 20px;
+}
+
+.border {
+    border: 5px solid black;
+    margin: 0px 500px;
+}
+
+/* Recipes CSS */ 
+
+.backtomenu {
+    border: 3px solid black;
+    margin: 20px;
+    padding: 3px;
+    background-color: brown;
+    color: black;
+}
+
+.rectitle {
+    margin: 10px;
+}
+
+.images {
+    margin: 10px;
+    border: 2px solid;
+}
+
+p {
+    margin: 10px;
+    margin-right: 1000px;
+}
+
+ul {
+    margin: 10px;
+}
+
+ol {
+    margin: 10px;
+}
+
+li {
+    padding: 5px;
+    margin-right: 1000px;
+}
+
+h2 {
+    margin: 10px;;
 }
